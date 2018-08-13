@@ -1,0 +1,106 @@
+#body {
+    background-color: #111214;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    color: aliceblue;
+    font-family: Calibri;
+}
+
+button {
+    fill: #2c2f33;
+}
+.axisColour line {
+    stroke: aliceblue;
+}
+
+.axisColour path {
+    stroke: aliceblue;
+}
+
+.axisColour text {
+    fill: aliceblue;
+}
+
+#content {
+    order: 2;
+    width: 100%;
+    display: flex;
+    background-color: #2c2f33;
+    flex-direction: column;
+}
+
+
+.mainFlexUpper {
+    display: flex;
+    order: 2;
+    height: 55%;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom-color: #23272a;
+    border-bottom-style: solid;
+}
+
+
+.mainFlexLower {
+    display: flex;
+    order: 3;
+    height: 45%;
+    width: 100%;
+    justify-content: space-around;
+}
+.barChart {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: aliceblue;
+}
+
+#heatMap {
+    display: block;
+    margin: auto;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mouseMovements {
+    padding-bottom: 5px;
+    border-left-color: aliceblue;
+    border-bottom-style: solid;
+}
+
+#nav-container .left {
+    margin-right: 20px;
+}
+
+#nav-container .right {
+    margin-left: 20px;
+}
+
+
+.pie {
+    margin: 20px;
+}
+
+.pie text {
+    font-family: "Verdana";
+    fill: #888;
+}
+
+.pie .name-text {
+    font-size: 1em;
+}
+
+.pie .value-text {
+    font-size: 3em;
+}

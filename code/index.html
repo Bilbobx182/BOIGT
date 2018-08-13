@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BOIGT</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+<div id="body">
+
+
+    <div id="content">
+        <div id = "Banner"> </div>
+        <div id = "Settings"> </div>
+
+        <div class="mainFlexUpper">
+            <div id="mouseMovements"></div>
+        </div>
+
+        <div class="mainFlexLower">
+            <div id="barChart"></div>
+            <div id="outerPie">
+                <div id="chart"></div>
+                <p>
+                    This piechart represents % of total key presses
+                </p>
+            </div>
+            <P id="last"></P>
+        </div>
+
+    </div>
+
+    <script>
+        require('./renderer.js')
+    </script>
+</div>
+</body>
+
+</html>

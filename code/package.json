@@ -1,0 +1,39 @@
+{
+  "name": "CiaranGameStatistics",
+  "version": "1.0.0",
+  "description": "Game input visualizer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-rebuild"
+  },
+  "repository": "https://github.com/Bilbobx182/Bilbobx182GameStatistics",
+  "keywords": [
+    "Statistics",
+    "electron",
+    "javascript",
+    "iohook"
+  ],
+  "author": "Ciaran Ó Nuallain",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "csv-parse": "^2.5.0",
+    "d3": "^5.4.0",
+    "d3-selection-multi": "^1.0.1",
+    "electron-rebuild": "^1.7.3",
+    "iohook": "^0.2.0"
+  },
+  "iohook": {
+    "targets": [
+      "node-57",
+      "electron-57"
+    ]
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "2.0.0"
+  }
+}
